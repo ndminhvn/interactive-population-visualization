@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# Documentation
+docs/
+README.md
+
+# macOS
+.DS_Store
+
+# # Raw shapefile data (keep only processed VTK files)
+# data/VA_Counties/

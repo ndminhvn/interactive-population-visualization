@@ -774,7 +774,13 @@ if __name__ == "__main__":
         default=8080,
         help="Port to serve on (default: 8080)",
     )
+    parser.add_argument(
+        "--host",
+        type=str,
+        default="localhost",
+        help="Host to bind to (default: localhost, or 0.0.0.0 for Docker)",
+    )
 
     args = parser.parse_args()
 
-    server.start(port=args.port, open_browser=True)
+    server.start(host=args.host, port=args.port, open_browser=True)
