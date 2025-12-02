@@ -78,7 +78,7 @@ def load_virginia_polydata(vtp_path: str = VTP_PATH) -> vtk.vtkPolyData:
 
 
 # ----------------------------------------------------------------------
-# County index: link CSV ↔ VTK polygons
+# County index: link CSV <-> VTK polygons
 # ----------------------------------------------------------------------
 def build_county_index(
     poly: vtk.vtkPolyData, df: pd.DataFrame

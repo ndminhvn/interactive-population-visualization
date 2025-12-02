@@ -18,7 +18,7 @@ from map_utils import (
 from normalize_name import normalize_name
 from charts import (
     population_trend_chart,
-    mini_population_bar_chart,
+    # mini_population_bar_chart,
     growth_gauge_chart,
     top_similar_counties,
     similar_counties_bar_chart,
@@ -406,7 +406,7 @@ with SinglePageLayout(server) as layout:
             label="Compare Counties",
             hide_details=True,
             inset=True,
-            classes="mr-4",
+            classes="mx-4",
         )
 
         vuetify3.VSelect(
