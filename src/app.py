@@ -465,7 +465,7 @@ with SinglePageLayout(server) as layout:
                     with vuetify3.VCard(
                         elevation=2,
                         classes="pa-2",
-                        style="height: 800px;",
+                        style="height: 600px;",
                     ):
                         html.Div(
                             "Virginia Map",
